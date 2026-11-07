@@ -4,9 +4,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Main Page</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-	<ul>
+	<ul class="menu">
 		<li>
 			<a href="index.html">Main Page</a>
 		</li>
@@ -19,16 +20,13 @@
 
 	</ul>
 	<h1>Моя собака Нейсон</h1>
-	<dl>
-		<li>
 			<h4>Моя собачка породи такса</h4>
-		</li>
-	</dl>
-	<div>
-		<img src="photo/neison.jpg" alt="dog photo" width="400">
-	</div>
+	<div id="dog-photo" style="display: flex; justify-content: center; gap: 100px;">
+      <img class="main" src="photo/neison.jpg" alt="dog photo" style="width: 40%; height: auto; border-radius: 10px;">
+      <img class="main" src="photo/neison2.jpg" alt="dog photo2" style="width: 40%; height: auto; border-radius: 10px;">
+    </div>
 	<h3>Коротка інформація:</h3>
-	<table width="400" cellpadding="10" border="1">	
+	<table width="600" cellpadding="10" border="1">	
 		<tbody>	
 			<tr>
 				<th colspan="2">Анкета</th>
@@ -71,11 +69,10 @@
 				Бігати за білками
 			</li>
 		</ol>
-		<p>
 		</div>
+				<p>
 			Більше фото можна побачити у <a href="pages/gallery.html">галереї</a>, а також мою сторінку <a href="pages/contact.html">контактів</a>
 		</p>
-		<p>Hello</p>
 
 </body>
 </html>
